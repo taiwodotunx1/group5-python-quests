@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+Age = int(input("Enter your age: "))
+Coins = int(input("How many gold coins do u have? "))
+if Age > 18 and Coins > 20 :
+   print("You can enter!")
+else:
+   print("You can not enter!")
